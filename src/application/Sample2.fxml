@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="292.0" prefWidth="450.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController2">
+   <children>
+      <Label layoutX="23.0" layoutY="45.0" text="User Name" />
+      <Label layoutX="27.0" layoutY="107.0" text="Password" />
+      <Label id="lblInfo" fx:id="lblInfo" layoutX="39.0" layoutY="254.0" text="Thông tin đăng nhập" textFill="#0e4be7" />
+      <TextField id="txtUser" fx:id="txtUser" layoutX="98.0" layoutY="41.0" prefHeight="26.0" prefWidth="275.0" />
+      <Button layoutX="113.0" layoutY="188.0" mnemonicParsing="false" onAction="#dangnhap_clicked" text="Đăng nhập" />
+      <Button layoutX="215.0" layoutY="188.0" mnemonicParsing="false" onAction="#dk" text="Đăng ký" />
+      <PasswordField id="txtPassword" fx:id="txtPassword" layoutX="98.0" layoutY="103.0" prefHeight="26.0" prefWidth="275.0" />
+   </children>
+</AnchorPane>
